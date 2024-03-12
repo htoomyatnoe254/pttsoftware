@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PTT Software Co., Ltd</title>
+        <!-- FavIcon -->
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png"
+        />
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+
+        <!-- font-awesome css-->
+        <link src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css" rel="stylesheet" />
+
+
+
+
+        <!-- custom css -->
+        <style type="text/css">
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .banners {
+                height: 100vh;
+                background: linear-gradient(
+                    20deg,
+                    steelblue 30%,
+                    skyblue 0% 100%
+                );
+
+                background-size: 5%;
+
+                transition: all 2s;
+            }
+
+            .banners:hover {
+                background-size: 5.5%;
+                background-position: center;
+            }
+
+            .cardhovers:hover {
+                box-shadow: -7px 5px 5px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Start Header Section -->
+        <header>
+            <!-- start navbar -->
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a href="#" class="navbar-brand mx-3">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png"
+                        width="50px"
+                        alt="sitelogo"
+                    />
+                    <span class="ms-2">PTT Software Co.,Ltd</span>
+                </a>
+
+                <button
+                    type="button"
+                    class="navbar-toggler"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#nav"
+                >
+                    <i class="navbar-toggler-icon"></i>
+                </button>
+
+                <div
+                    id="nav"
+                    class="navbar-collapse justify-content-between collapse"
+                >
+                    <ul class="navbar-nav px-3">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase fw-bold"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase fw-bold"
+                                >Clients</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase fw-bold"
+                                >About</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="#"
+                                class="nav-link text-uppercase fw-bold"
+                                class=""
+                                data-bs-toggle="dropdown"
+                                >Software</a
+                            >
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" class="dropdown-item"
+                                        >Android App</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item"
+                                        >IOS App</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item"
+                                        >Linux App</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item"
+                                        >Windows App</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase fw-bold"
+                                >Pricing</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase fw-bold"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                    <div class="px-3">
+                        <a
+                            href="#"
+                            class="btn btn-outline-light btn-sm rounded-0"
+                            >Sign Up</a
+                        >
+                    </div>
+                </div>
+            </nav>
+            <!-- end navbar -->
+
+            <!-- h1 to h6 -->
+            <!-- display1 to display6 -->
+            <!-- start banner -->
+            <div class="container-fluid">
+                <div
+                    class="row justify-content-center align-items-center banners"
+                >
+                    <div class="col-md-10 text-center">
+                        <h1 class="display-2">
+                            <span class="text-primary text-uppercase">ptt</span>
+                            <span class="text-capitalize text-white"
+                                >software development company</span
+                            >
+                        </h1>
+                        <h2 class="fst-italic fw-light text-white">
+                            We help companies to digitalize their business.
+                        </h2>
+                        <p class="text-secondary">
+                            Properly set processes. Transparent cooperation.
+                            Predictable delivery.
+                        </p>
+                        <a href="#" class="btn btn-warning btn-lg rounded-0"
+                            >Get in Touch</a
+                        >
+                    </div>
+                </div>
+            </div>
+            <!-- end banner -->
+        </header>
+        <!-- End Header Section -->
+
+        <!-- Start Our Client Section -->
+        <section class="bg-light p-5">
+            <div class="container-fluid">
+                <!-- start title -->
+                <div class="col-md-12 text-center">
+                    <h2 class="text-warning display-4">Our Clients</h2>
+                    <p class="text-secondary lead">
+                        Projects We successfully developed. One Look is worth a
+                        thousand words.
+                    </p>
+                </div>
+                <!-- end title -->
+
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="card bg-info cardhovers">
+                            <!-- <div class="card-header"></div> -->
+                            <div class="card-body">
+                                <h5 class="card-title">Toyota</h5>
+                                <h6 class="card-subtitle text-muted mb-3">
+                                    Vehicles
+                                </h6>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.
+                                </p>
+                                <a href="#" class="card-link">Website</a>
+                                <a href="#" class="card-link">Contact</a>
+                            </div>
+                            <!-- <div class="card-footer"></div> -->
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="card bg-info cardhovers">
+                            <div class="card-body">
+                                <h5 class="card-title">Mazda</h5>
+                                <h6 class="card-subtitle text-muted mb-3">
+                                    Vehicles
+                                </h6>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.
+                                </p>
+                                <a href="#" class="card-link">Website</a>
+                                <a href="#" class="card-link">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="card bg-info cardhovers">
+                            <div class="card-body">
+                                <h5 class="card-title">KIA</h5>
+                                <h6 class="card-subtitle text-muted mb-3">
+                                    Vehicles
+                                </h6>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.
+                                </p>
+                                <a href="#" class="card-link">Website</a>
+                                <a href="#" class="card-link">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="card bg-info cardhovers">
+                            <div class="card-body">
+                                <h5 class="card-title">Suzuki</h5>
+                                <h6 class="card-subtitle text-muted mb-3">
+                                    Vehicles
+                                </h6>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.
+                                </p>
+                                <a href="#" class="card-link">Website</a>
+                                <a href="#" class="card-link">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="card bg-warning cardhovers">
+                            <div class="card-body">
+                                <h5 class="card-title">Samsung</h5>
+                                <h6 class="card-subtitle text-muted mb-3">
+                                    Communication Technology
+                                </h6>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.
+                                </p>
+                                <a href="#" class="card-link">Website</a>
+                                <a href="#" class="card-link">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="card bg-warning cardhovers">
+                            <div class="card-body">
+                                <h5 class="card-title">Mi</h5>
+                                <h6 class="card-subtitle text-muted mb-3">
+                                    Communication Technology
+                                </h6>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.
+                                </p>
+                                <a href="#" class="card-link">Website</a>
+                                <a href="#" class="card-link">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="card bg-warning cardhovers">
+                            <div class="card-body">
+                                <h5 class="card-title">Sony</h5>
+                                <h6 class="card-subtitle text-muted mb-3">
+                                    Communication Technology
+                                </h6>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.
+                                </p>
+                                <a href="#" class="card-link">Website</a>
+                                <a href="#" class="card-link">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="card bg-warning cardhovers">
+                            <div class="card-body">
+                                <h5 class="card-title">Oppo</h5>
+                                <h6 class="card-subtitle text-muted mb-3">
+                                    Communication Technology
+                                </h6>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.
+                                </p>
+                                <a href="#" class="card-link">Website</a>
+                                <a href="#" class="card-link">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Our Client Section -->
+
+        <!-- Start Software Section -->
+        <section>
+            <div class="container-fluid">
+                <!-- start title -->
+                <div class="col-md-12 text-center">
+                    <h2 class="text-warning display-4">Software</h2>
+                    <p class="text-muted lead">
+                        Projects We successfully developed. One Look is worth a
+                        thousand words.
+                    </p>
+                </div>
+                <!-- end title -->
+
+                <div class="row">
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-3" >
+                        <img src="https://imgeng.jagran.com/images/2023/jun/Android%2014%20(1)1686146518996.jpg" class="img-thumbnail" alt="Android">
+                        <h3 class="text-warning my-3">Android Application</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <img src="https://mytechmyanmar.com/wp-content/uploads/2020/04/appstore.jpg" class="img-thumbnail" alt="Android">
+                        <h3 class="text-warning my-3">IOS Application</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <img src="https://i.ytimg.com/vi/8WbyB_2HthM/maxresdefault.jpg" class="img-thumbnail" alt="Android">
+                        <h3 class="text-warning my-3">Linux Application</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <img src="https://i.pcmag.com/imagery/lineups/06xskoAKsVIlA7WdtvUGQmT-1.1577756249.fit_lim.size_1182x667.jpg" class="img-thumbnail" alt="Android">
+                        <h3 class="text-warning my-3">Windows Application</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Software Section -->
+
+        <!-- Start Team Section -->
+        <section class="bg-secondary p-5">
+            <div class="container-fluid">
+
+                <!-- start title -->
+                <div class="col-md-12 text-center">
+                    <h2 class="text-warning display-4">Team</h2>
+                </div>
+                <!-- end title -->
+
+                <div class="row">
+                    
+                    <div class="col-lg-4 col-sm-10 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Ms.Khin Myat Noe</h3>
+                                <p>Operation Manager</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+                                 <a href="#" target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+                                  <a href="#" target="_blank"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-lg-4 col-sm-10 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Mr.Htet Paing</h3>
+                                <p>Project Manager</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+                                 <a href="#" target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+                                  <a href="#" target="_blank"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-lg-4 col-sm-10 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Mr.Pyae Phyo Paing</h3>
+                                <p>Fonder And CEO</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+                                 <a href="#" target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+                                  <a href="#" target="_blank"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+
+                </div>
+                
+            </div>
+        </section>
+        <!-- End Team Section -->
+
+        <!-- Start Public Interest Section -->
+        <section></section>
+        <!-- End Public Interest Section -->
+
+        <!-- Start Pricing Section -->
+        <section></section>
+        <!-- End Pricing Section -->
+
+        <!-- Start Contact Section -->
+        <section></section>
+        <!-- End Contact Section -->
+
+        <!-- Start Footer Section -->
+        <footer></footer>
+        <!-- End Footer Section -->
+
+        <!-- Bootstrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- jQuery -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-UOw6QrrZAbLGIB5TlWOtIZGZmOTbLJuL6nXUQOFyMow="
+            crossorigin="anonymous"
+        ></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                console.log("hi");
+            });
+        </script>
+    </body>
+</html>
